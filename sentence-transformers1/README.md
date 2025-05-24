@@ -14,19 +14,19 @@ This project demonstrates how to use Hugging Face sentence-transformers to gener
 Create a Python virtual environment to isolate project dependencies:
 
 ```bash
-python -m venv hf-env
+python -m venv .venv
 ```
 
 Activate the virtual environment:
 
 **Linux/Mac:**
 ```bash
-source hf-env/bin/activate
+source .venv/bin/activate
 ```
 
 **Windows:**
 ```bash
-hf-env\Scripts\activate
+.venv\Scripts\activate
 ```
 
 ### 2. Install Required Packages
