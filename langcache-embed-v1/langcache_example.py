@@ -10,7 +10,8 @@ def main():
     sentences = [
         'Will the value of Indian rupee increase after the ban of 500 and 1000 rupee notes?',
         'What will be the implications of banning 500 and 1000 rupees currency notes on Indian economy?',
-        "Are Danish Sait's prank calls fake?"
+        "Are Danish Sait's prank calls fake?",
+        "Chinese food is good"
     ]
 
     print("\nGenerating embeddings for sentences:")

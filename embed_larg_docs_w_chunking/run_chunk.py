@@ -9,7 +9,9 @@ Hugging Face models are often used in conjunction with Redis for AI services."""
 
 # Break into sentences and embed
 sentences = sent_tokenize(long_text)
+print('sentences', sentences)
 sentence_embeddings = model.encode(sentences)
+print('sentence_embeddings', sentence_embeddings)
 
 # Mean pooling
 import numpy as np
